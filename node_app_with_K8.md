@@ -6,7 +6,7 @@
 - Pod is a smallest deployable unit of computing that you can create and manage in Kubernetes.
 ### Steps for the deployment of node app
 - create node-deployment.yml and node-service.yml to deploy node app
- - Use the below command to deploy
+  - Use the below command to deploy
    `kubectl create -f node-deployment.yml`
    `kubectl create -f node-service.yml`
 - cretae mongo-deployment.yml and mongo-service.yml to setup database.

@@ -2,6 +2,7 @@
 ![image](https://user-images.githubusercontent.com/97250268/204542447-5d278aff-218a-4325-90f1-6a2e751fc947.png)
 
 ### Kubernetes Cluster node:
+![image](https://user-images.githubusercontent.com/97250268/204653329-e7c63a79-11a7-41a3-a1c8-9eb31bb00055.png)
 
 ### What is deployment?
 - A Kubernetes Deployment is used to tell Kubernetes how to create or modify instances of the pods that hold a containerized application. Deployments can scale the number of replica pods, enable rollout of updated code in a controlled manner, or roll back to an earlier deployment version if necessary.

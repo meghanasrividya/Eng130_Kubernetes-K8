@@ -98,3 +98,4 @@ spec:
 
   type: NodePort
 ```
+- Run the below command to run the service `kubectl create -f nginx-service.yml`

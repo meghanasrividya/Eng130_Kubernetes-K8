@@ -5,7 +5,6 @@ Eng130_Kubernetes(K8)
 
 ### What are the benefits of using K8s?
  - Agile application creation and deployment: increased ease and efficiency of container image creation compared to VM image use.
- - ge immutability).
 - Dev and Ops separation of concerns: create application container images at build/release time rather than deployment time, thereby decoupling applications from infrastructure.
 - Observability: not only surfaces OS-level information and metrics, but also application health and other signals.
 - Environmental consistency across development, testing, and production: Runs the same on a laptop as it does in the cloud.

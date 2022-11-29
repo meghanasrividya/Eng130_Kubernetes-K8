@@ -42,3 +42,59 @@ Kubernetes provides you with:
 - QuickBooks Desktop Enterprise.
 - Oracle PeopleSoft.
 - FinancialForce PSA.
+### Deployment with K8:
+- Let's create `nginx-deploy.yml`
+```
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: nginx-deployment
+spec:
+  selector:
+    matchLabels:
+       app: nginx
+
+
+  replicas: 3 # template to use  its label for k8
+  template:
+    metadata:
+      labels:
+        app: nginx
+
+
+    spec:
+      containers:
+      - name: nginx
+        image: meghanasrividya/my-page:meghana
+        ports:
+        - containerPort: 80
+
+```
+### Run the below commands to deploy and check the pods
+
+```kubectl create -f nginx-deploy.yml # to run deployment file
+kubectl get deployment or deploy # will list what has deployed and is running
+kubectl get pods  # will display each replica that is running
+
+```
+### Let's create a service to expose our deployment globally on a public browser
+- Create `nginx-service.yml`
+```
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: nginx-svc
+  namespace: default
+spec:
+  ports:
+  - nodePort: 30001
+    port: 80
+    targetPort: 80
+
+  selector:
+    app: nginx
+
+  type: NodePort
+```

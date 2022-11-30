@@ -117,3 +117,15 @@ spec:
   - Use the below commands to deploy
     `kubectl create -f mongo-deployment.yml`
     `kubectl create -f mongo-service.yml`
+    
+![image](https://user-images.githubusercontent.com/97250268/204874976-34b99213-e4ea-4201-9f14-866a90aa2358.png)
+
+![image](https://user-images.githubusercontent.com/97250268/204875100-66f93a7e-e209-4183-88f0-8f0d97d78781.png)
+
+- Go to the browser and you can see the app and posts are running at localhost
+
+![image](https://user-images.githubusercontent.com/97250268/204875422-bccc646e-6112-43f1-92d2-6db3529a2ad8.png)
+
+
+![image](https://user-images.githubusercontent.com/97250268/204875665-41ef497c-b72b-4375-bc9e-79f642163b11.png)
+

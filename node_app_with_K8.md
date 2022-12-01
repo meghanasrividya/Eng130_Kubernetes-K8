@@ -117,7 +117,7 @@ spec:
     app.kubernetes.io/component: backend
 
 ```
-  - Use the below commands to deploy
+  - Use the  commands to deploy
     `kubectl create -f mongo-deployment.yml`
     `kubectl create -f mongo-service.yml`
     

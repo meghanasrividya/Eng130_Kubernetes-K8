@@ -57,7 +57,10 @@ spec:
   - Use the below command to deploy
    `kubectl create -f node-deployment.yml`
    `kubectl create -f node-service.yml`
-- cretae mongo-deployment.yml and mongo-service.yml to setup database.
+- create mongo-deployment.yml and mongo-service.yml to setup database.
+
+![image](https://user-images.githubusercontent.com/97250268/204874976-34b99213-e4ea-4201-9f14-866a90aa2358.png)
+
 - Code for mongo-deployement.yml
 ```
 #mongo-deployment.yml
@@ -118,7 +121,6 @@ spec:
     `kubectl create -f mongo-deployment.yml`
     `kubectl create -f mongo-service.yml`
     
-![image](https://user-images.githubusercontent.com/97250268/204874976-34b99213-e4ea-4201-9f14-866a90aa2358.png)
 
 ![image](https://user-images.githubusercontent.com/97250268/204875100-66f93a7e-e209-4183-88f0-8f0d97d78781.png)
 
